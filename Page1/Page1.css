@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}body{
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#eef3f8;
+font-family: 'Source Sans 3', sans-serif;
+
+}
+
+header{
+   background: linear-gradient( 90deg,#0f172a 0%, #1e293b 50%,#020617 100%);
+    padding: 13px;
+    display: flex;
+    justify-content:space-between ;
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 500ms ease 100ms;
+    position: sticky;
+    top:0;
+        z-index: 1000;
+
+}header ul {
+    display:flex;
+    gap:15px;
+    list-style-type: none;
+    height:7vh;
+    align-items: center;    
+
+
+
+}header ul a{
+    text-decoration: none;
+    color:rgb(248, 242, 242);
+    border-radius: 20px;
+    padding:5px;
+    position: relative;
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+    
+}.logo h1{
+    font-size: 12px;
+}
+.Search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    
+
+   
+
+}header input{
+   
+    border-radius: 20px;
+    border: solid;
+padding: 5px; 
+text-align: center;  
+transition:transform 500ms ease 0s;
+ backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.15);
+border-color: transparent;
+}
+header ul a:hover{
+color:rgb(68, 23, 213) ;
+    transform: scale(1.1);
+
+}header ul li:hover{
+        transform: scale(1.1);
+}.layout{
+    display: flex;
+    flex-direction: row-reverse;
+}main .Details{
+    
+    margin: 50px;
+    padding: 30px;
+}main .Details p{
+    margin-top: 20px;
+}
+
+
+main{
+        
+    height:100vh;
+    flex:6;
+}aside{
+    flex:4;
+    margin: 100px;
+    padding: 50px;
+   
+    
+}main .Details button{
+width: 250px;
+margin: 70px;
+height: 40px;
+border-radius: 20px;
+background-color: transparent;
+    transition: transform 500ms ease 100ms;
+
+}main .Details span{
+    color: cornflowerblue;
+    
+}main .Details .line{
+    border-top: 1px solid;
+    margin: 20px;
+    width: auto;
+
+}main .Details p a{
+    color:black;
+    text-decoration: none;
+    transition: transform 500ms ease 100ms;
+}main .Details p a:hover{
+    color:rgb(68, 23, 213) ;
+    transform: scale(1.2);
+
+}main .Details button:hover{
+border:solid rgb(68, 23, 213); 
+        transform: scale(1.1);
+
+}
+    
+
+
