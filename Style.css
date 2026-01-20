@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}body{
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-color:#eef3f8;
+font-family: 'Source Sans 3', sans-serif;
+
+}
+
+header{
+   background: linear-gradient( 90deg,#0f172a 0%, #1e293b 50%,#020617 100%);
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 500ms ease 100ms;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    
+}header ul {
+    display:flex;
+    gap:15px;
+    list-style-type: none;
+    height:7vh;
+    align-items: center;    
+
+
+
+}header ul a{
+    text-decoration: none;
+    color:rgb(248, 242, 242);
+    border-radius: 20px;
+    padding:5px;
+    position: relative;
+    
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+    
+}.logo h1{
+    font-size: 12px;
+}
+.Search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    
+
+   
+
+}header input{
+   
+    border-radius: 20px;
+    border: solid;
+padding: 5px; 
+text-align: center;  
+transition:transform 500ms ease 0s;
+ backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.15);
+border-color: transparent;
+}
+header ul a:hover{
+color:rgb(68, 23, 213) ;
+    transform: scale(1.1);
+
+}header ul li:hover{
+        transform: scale(1.1);}
+
+
+
+main{
+    background-image: url('Image/pen-4337521.jpg');
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}main h1{
+    color:white;
+}
+    
+    
+
+aside{
+    display: flex;
+    justify-content: space-around;
+    height:80vh;
+align-items: center;
+    
+}
+
+
+
+.First{
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:400px;
+    border: solid;
+    border-radius: 20px;
+       flex-direction: column;
+       justify-content: end;
+transition:transform 500ms ease 0s;
+
+    
+}.Second{    border: solid;
+
+      display: flex;
+    justify-content: center;
+    width:300px;
+    height:400px;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 20px;
+transition:transform 500ms ease 0s;
+
+}.Third{      
+    border: solid;
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height:400px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: end;
+transition:transform 500ms ease 0s;
+
+}aside img{
+    margin: 50px;
+    
+}aside button a{
+    text-decoration: none;
+    color:#0f172a
+}
+aside button{
+border-radius: 20px;
+margin: 40px;
+padding: 10px;
+border:solid;
+background-color: transparent;
+transition:transform 500ms ease 0s;
+
+}aside p{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: flex-end;
+
+}main h1{
+      font-family: 'Poppins', sans-serif;
+
+}aside button:hover{
+    border-color: rgb(68, 23, 213);
+    background-color: transparent;
+    transform: scale(1.1);
+    
+}.First:hover{
+        transform: scale(1.1);
+
+}.Second:hover{
+        transform: scale(1.1);
+
+}.Third:hover{
+        transform: scale(1.1);
+
+}@media (max-width: 600px){
+    aside{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap:30px
+    }
+    header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  header ul {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  header ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Search {
+    width: 100%;
+    align-items: center;
+  }
+
+  header input {
+    width: 90%;
+  }
+    main {
+    min-height: 70vh;
+    padding: 2px 15px;
+    background-position: center;
+  }
+
+  main h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
